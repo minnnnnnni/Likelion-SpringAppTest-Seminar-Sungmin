@@ -91,11 +91,29 @@ src/test/java/com/likelion/banking/
 - [Mockito 공식 문서](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
 - [Spring Boot Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing)
 
-## 📞 도움이 필요하면?
-
-- 세미나 중: 손을 들어주세요!
-- 세미나 후: GitHub Issues에 질문 남겨주세요
 
 ---
+# [실습] 테스트 핵심 문법 정리
 
-**Happy Testing! 🧪**
+## Mockito 핵심 문법
+
+### 1. (Given) Mock 동작 설정
+```// TODO: 슬라이드대로 동작 설정 문법 작성하기```
+
+
+### 2. (When/Then) 메서드 호출 검증
+```// TODO: 슬라이드대로 메서드 호출 검증 문법 작성하기```
+
+### 3. 예외 발생
+```// TODO: 슬라이드대로 예외 던지는 문법 작성하기```
+
+## JUnit 5 핵심 문법
+
+### 1. 테스트 메서드 정의
+```// TODO: 슬라이드대로 동작 설정 문법 작성하기```
+
+### 2. 값 검증
+```// TODO: 슬라이드대로 값 검증 문법 작성하기```
+
+### 3. 예외 발생
+```// TODO: 슬라이드대로 예외 던지는 문법 작성하기```
