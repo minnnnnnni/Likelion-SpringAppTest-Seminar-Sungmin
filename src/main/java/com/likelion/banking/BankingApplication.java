@@ -1,13 +1,12 @@
-package org.likelion.springseminarapptest;
+package com.likelion.banking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSeminarApptestApplication {
+public class BankingApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringSeminarApptestApplication.class, args);
+        SpringApplication.run(BankingApplication.class, args);
     }
-
 }
