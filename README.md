@@ -9,32 +9,8 @@
 - Mockito를 사용한 Mock 객체 활용
 - Given-When-Then 패턴 이해하기
 
-## 🚀 시작하기
-
-### 사전 요구사항
-
-- Java 17 이상
-- IntelliJ IDEA (권장) 또는 다른 IDE
-- Git
-
-### 프로젝트 클론
-
-```bash
-git clone https://github.com/chaeminyu/spring-seminar-apptest.git
-cd spring-seminar-apptest
-```
-
-### 프로젝트 실행 확인
-
-```bash
-# Gradle 빌드
-./gradlew build
-
-# 테스트 실행 (처음엔 실패하는 게 정상입니다!)
-./gradlew test
-```
-
 ## 📚 실습 가이드
+(docs 폴더 참고!)
 
 1. **[Step 1: 단위 테스트 작성](docs/step1-guide.md)**
    - 정상 플로우 테스트
