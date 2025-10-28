@@ -51,24 +51,15 @@ class TransferServiceUnitTests {
     @DisplayName("정상 플로우: 계좌 이체가 성공적으로 수행된다")
     void moneyTransferHappyFlow() {
         // TODO: Given - 테스트 데이터 준비
-        // 힌트 1: 발신인과 수취인 Account 객체를 생성하세요
-        //   Account sender = new Account(1L, "John", new BigDecimal(1000));
-        //   Account receiver = new Account(2L, "Jane", new BigDecimal(1000));
-        
-        // 힌트 2: accountRepository.findById()가 호출되면 위 객체들을 반환하도록 설정하세요
-        //   given(accountRepository.findById(1L)).willReturn(Optional.of(sender));
-        //   given(accountRepository.findById(2L)).willReturn(Optional.of(receiver));
+
         
         
         // TODO: When - 테스트 대상 메서드 실행
-        // 힌트: transferService.transferMoney(1L, 2L, new BigDecimal(100));
+
         
         
         // TODO: Then - 결과 검증
-        // 힌트 1: verify()를 사용하여 changeAmount()가 올바른 값으로 호출되었는지 확인
-        //   verify(accountRepository).changeAmount(1L, new BigDecimal(900));
-        
-        // 힌트 2: 발신인은 900, 수취인은 1100이 되어야 함
+
         
     }
 
@@ -86,16 +77,13 @@ class TransferServiceUnitTests {
     @DisplayName("예외 플로우: 발신인 계좌를 찾을 수 없으면 예외가 발생한다")
     void moneyTransferSenderAccountNotFound() {
         // TODO: Given - 발신인 계좌가 존재하지 않는 상황 설정
-        // 힌트: given(accountRepository.findById(999L)).willReturn(Optional.empty());
-        
+
         
         // TODO: When & Then - 예외 발생 확인
-        // 힌트: assertThrows(AccountNotFoundException.class, () -> { ... });
-        
+
         
         // TODO: Then - changeAmount()가 호출되지 않았는지 확인
-        // 힌트: verify(accountRepository, never()).changeAmount(anyLong(), any(BigDecimal.class));
-        
+
     }
 
     /**

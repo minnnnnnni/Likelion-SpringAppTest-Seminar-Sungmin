@@ -25,7 +25,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     
     // TODO: Test Dependencies 채우기
-
     
     // JUnit 5는 spring-boot-starter-test에 포함
 }
