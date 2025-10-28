@@ -46,7 +46,8 @@ class TransferServiceIntegrationTests {
     void transferMoneyIntegrationTest() {
         // TODO: Given - 테스트 데이터 준비
         // 힌트: 단위 테스트와 동일하게 작성하면 됩니다
-        
+        Account sender = new Account(1L, "John", new BigDecimal(1000));
+
         
         // TODO: When - 메서드 실행
         
